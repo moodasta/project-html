@@ -1,0 +1,90 @@
+:root {
+    --color-blue: #407BFF;
+    --color-pink: #dc143c;
+    --font-body: 'Lora', serif;
+}
+
+body {
+    font-family: var(--font-body);
+}
+
+.text-blue {
+    color: var(--color-blue);
+    font-weight: 900;
+}
+
+.text-pink {
+    color: var(--color-pink);
+}
+
+.icon-position {
+    position: relative;
+    top: 2px;
+}
+
+.logo-menu{
+    font-size: 27px;
+    color: var(--color-blue);
+    font-weight: 700;
+}
+
+.logo-menu:hover{
+    color: var(--color-blue)
+}
+
+.navbar-toggler{
+    box-shadow: none !important;
+}
+
+.nav-link{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.nav-link:hover{
+    color: var(--color-pink);
+}
+
+img-height {
+    min-height: 240px;
+    }
+
+.gradiente-plataformas {
+    background-image: linear-gradient(45deg,
+    
+    hsl(240deg 92% 14%) 0%,
+    
+    hsl(240deg 89% 14%) 7%,
+    
+    hsl(240deg 86% 14%) 16%,
+    
+    hsl(240deg 83% 14%) 27%,
+    
+    hsl(240deg 81% 14%) 43%,
+    
+    hsl(241deg 78% 14%) 55%,
+    
+    hsl(242deg 77% 14%) 63%,
+    
+    hsl(242deg 75% 14%) 70%,
+    
+    hsl(242deg 72% 14%) 76%,
+    
+    hsl(242deg 69% 14%) 82%,
+    
+    hsl(243deg 67% 14%) 87%,
+    
+    hsl(243deg 64% 14%) 91%,
+    
+    hsl(243deg 62% 14%) 96%,
+    
+    hsl(243deg 59% 14%) 100%);
+}
+
+.height-50 {
+    min-height: 50vh;
+    }
+
+.logo-plataforma {
+    font-size: 50px;
+    }
